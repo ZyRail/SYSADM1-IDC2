@@ -20,6 +20,7 @@ Complete this lab as follows:
  ![image](https://github.com/user-attachments/assets/3beffa02-0e4f-48c2-bc3c-d8f49cd77910)
 
 SS:
+
 ![image](https://github.com/user-attachments/assets/70afd764-adec-43f7-9aa1-9344f584b3e2)
 
 
@@ -35,24 +36,36 @@ SS:
 -   The Bluetooth service status is enabled
 
 SS:
+
 ![image](https://github.com/user-attachments/assets/0f1fbf0a-8d8e-4066-a74c-60bf3fc0c1a6)
+
 
 1.  Check the status of the cups services. Since when was it running?
 
 -   It has been running since September 9, 2024 at 09:09:37
 
 SS:
+
 ![image](https://github.com/user-attachments/assets/19c5ae67-7c23-41b5-9009-146ca9ef18b8)
 
+
 1.  Stop cups services.
+2.  
 ![image](https://github.com/user-attachments/assets/0da3fdd8-89b8-4864-a670-7794bdd29f13)
 
-2.  Verify if the service was stopped.
+
+4.  Verify if the service was stopped.
+   
 ![image](https://github.com/user-attachments/assets/3e0c4570-a82d-4d85-b67d-3f13b83ccb43)
 
-3.  Restart the cups services
+
+6.  Restart the cups services
+   
 ![image](https://github.com/user-attachments/assets/c7d090bc-f2b7-4fe6-ad5a-3cbd9bc06ce5)
 
-4.  Verify if the service was restarted.
+
+8.  Verify if the service was restarted.
+   
 ![image](https://github.com/user-attachments/assets/5ab92406-c0cd-4510-8f4b-ad783849a0d2)
+
 
