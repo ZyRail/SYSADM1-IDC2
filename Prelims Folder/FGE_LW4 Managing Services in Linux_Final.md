@@ -26,7 +26,9 @@ SS:
 2.  Start the Bluetooth service using the systemctl command.
 
 > Ex. sudo systemctl start httpd
+
 ![image](https://github.com/user-attachments/assets/baeb426a-b5ff-4a41-9094-abd51fd18012)
+
 
 3.  Check the status of the Bluetooth service. What is its status?
 
