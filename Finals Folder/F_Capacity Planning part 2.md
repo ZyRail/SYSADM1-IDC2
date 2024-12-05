@@ -1,20 +1,5 @@
-+----------------------------------+------------------------+----------+
-| ![](vertopal_                    |                        |          |
-| 192a99d9693f4d039263c9e2d86c66f1 |                        |          |
-| /media/image1.png){width="2.4in" |                        |          |
-| height="0.5881944444444445in"}   |                        |          |
-|                                  |                        |          |
-| SCHOOL OF INFORMATION AND        |                        |          |
-| TECHNOLOGY                       |                        |          |
-+----------------------------------+------------------------+----------+
-| NAME:                            | DATE PERFORMED:        | /50      |
-|                                  | 12/05/2024             |          |
-| Zschairail F. Balanza & John     |                        |          |
-| Ross S. Sabado                   |                        |          |
-+----------------------------------+------------------------+----------+
-| Section: IDC2                    | DATE                   |          |
-|                                  | SUBMITTED:12/05/2024   |          |
-+----------------------------------+------------------------+----------+
+![image](https://github.com/user-attachments/assets/619aac0a-b5e8-4d7a-b368-d3841cb55b11)
+
 
 **Part 2. Network Scalability Analysis**
 
@@ -26,11 +11,12 @@ network\'s scalability and performance to ensure a seamless user
 experience during the peak traffic period. Consider factors such as
 increased user demand, new applications, and security threats.
 
-![](vertopal_192a99d9693f4d039263c9e2d86c66f1/media/image2.webp){width="5.049483814523184in"
-height="3.8229166666666665in"}
+![image](https://github.com/user-attachments/assets/96d22e12-194b-4190-aea4-ec90ee71f760)
 
-![C:\\Users\\balanza_z\\Downloads\\Balanza_Sabado_NetworkTopologyDesignForScalability.png](vertopal_192a99d9693f4d039263c9e2d86c66f1/media/image3.png){width="7.027083333333334in"
-height="3.5318799212598426in"}
+Proposed Network Topology Design For Scalability
+
+![Balanza_Sabado_NetworkTopologyDesignForScalability](https://github.com/user-attachments/assets/562b6082-88f6-403d-bc55-7060212a0095)
+
 
 **Network Analysis**
 
@@ -122,59 +108,4 @@ added by VLANs and multilayer switches are justified by the resulting
 improvements in performance and scalability, ensuring the system meets
 both current and future needs.
 
-  ------------------------------------------------------------------------------
-  Criteria          Excellent \| 10pts Good \| 7pts        Needs Improvement \|
-                                                           4pts
-  ----------------- ------------------ ------------------- ---------------------
-  **Network         Accurately         Identifies key      Identifies some basic
-  Analysis**        identifies         network components  network components
-                    potential          and some potential  but lacks a
-                    bottlenecks,       bottlenecks.        comprehensive
-                    security risks,                        analysis.
-                    and capacity                           
-                    limitations.                           
-
-  **Scalability     Proposes multiple  Proposes some       Proposes limited
-  Planning**        relevant solutions relevant            scalability
-                    and provides       scalability         strategies.
-                    detailed           strategies but      
-                    explanations,      lacks detail.       
-                    including                              
-                    potential                              
-                    drawbacks and                          
-                    benefits.                              
-
-  **Evaluation of   Proposes           Provides a basic    Does not evaluate the
-  Solutions**       comprehensive      evaluation of the   proposed solutions or
-                    scalability        proposed solutions, provides a
-                    strategies,        but lacks depth.    superficial
-                    including specific                     evaluation.
-                    recommendations                        
-                    for hardware                           
-                    upgrades, software                     
-                    configurations,                        
-                    and network                            
-                    optimizations.                         
-
-  **Proposed        Provides a         Provides a basic    Does not provide a
-  Design**          detailed and       design but lacks    clear and detailed
-                    well-justified     specific details    design.
-                    design, including  and justifications. 
-                    network diagrams,                      
-                    configuration                          
-                    details, and                           
-                    implementation                         
-                    plans.                                 
-
-  **Evaluation and  Provides a         Provides a basic    Does not evaluate the
-  Justification**   thorough           evaluation of the   proposed solutions or
-                    evaluation of the  proposed solutions, provides a
-                    proposed           but lacks depth.    superficial
-                    solutions,                             evaluation
-                    considering                            
-                    factors like cost,                     
-                    complexity, and                        
-                    potential impact.                      
-
-  Score:                                                   /50
-  ------------------------------------------------------------------------------
+![image](https://github.com/user-attachments/assets/1ae05814-0608-417e-9cc1-b0df39da116f)
