@@ -1,19 +1,37 @@
 Network Analysis
 
-This network topology identifies and addresses potential issues such as capacity and security concerns. Systems like the database server, web server, application server, email server, security server, and caching server are replicated to minimize downtime and ensure uninterrupted services during peak hours. At the core layer, multilayer switches enable high-level routing for inter-VLAN communication and distribute traffic efficiently. Traffic types—including user access, database queries, and administrative traffic—are segmented using VLANs to improve performance and reduce bottlenecks. Redundancy and fault tolerance further enhance reliability and ensure consistent capacity, especially during high-traffic periods.
+This network topology identifies and addresses potential issues such as capacity and security concerns. 
+Systems like the database server, web server, application server, email server, security server, 
+and caching server are replicated to minimize downtime and ensure uninterrupted services during peak hours. 
+At the core layer, multilayer switches enable high-level routing for inter-VLAN communication and distribute traffic efficiently. 
+Traffic types—including user access, database queries, and administrative traffic—are segmented using VLANs to improve performance and reduce bottlenecks. 
+Redundancy and fault tolerance further enhance reliability and ensure consistent capacity, especially during high-traffic periods.
 
 Scalability Planning
 
-This design supports both vertical and horizontal scaling making it highly scalable, which means adding additional servers and devices requires no significant structural changes. In addition, managing increasing user loads would become easier because VLANs on the network help separate traffic logically. Additionally, the availability of backup servers for every server on the network offers redundancy. Core and access layer switches are also offered as additional port capacity in case of expansion. Generally, this topology will make sure that the network is growing along with the demand for the website at peak hours, and even after, it balances the traffic through multiple paths with high performance.
+This design supports both vertical and horizontal scaling making it highly scalable, which means adding additional servers and 
+devices requires no significant structural changes. In addition, managing increasing user loads would become easier because VLANs on the network help separate traffic 
+logically. Additionally, the availability of backup servers for every server on the network offers redundancy. Core and access layer switches are also offered as 
+additional port capacity in case of expansion. Generally, this topology will make sure that the network is growing along with the demand for the website at 
+peak hours, and even after, it balances the traffic through multiple paths with high performance.
 
 Evaluation of Solutions
 
-The network design specified has thorough scalability approaches. Multilayer switches ensure efficient traffic management and inter-VLAN processes routing, and firewalls protect systems from DDoS attacks. Requests are distributed among the servers by load balancers, so this prevents server overload and guarantees efficient utilization. The next generation of switches with high-bandwidth uplinks also enhances the design by preparing it for future increasing traffic. While initial setup costs and complexity are moderately high, the long-term improvements in reliability, security, and performance justify the investment.
+The network design specified has thorough scalability approaches. Multilayer switches ensure efficient traffic management and inter-VLAN processes routing, 
+and firewalls protect systems from DDoS attacks. Requests are distributed among the servers by load balancers, so this prevents server overload and guarantees 
+efficient utilization. The next generation of switches with high-bandwidth uplinks also enhances the design by preparing it for future increasing traffic. 
+While initial setup costs and complexity are moderately high, the long-term improvements in reliability, security, and performance justify the investment.
 
 Proposed Design
 
-The network diagram shows that the design has been meticulously structured and well-reasoned. The collapsed core layer reduces complexity while incorporating dual multilayer switches for traffic routing and seamless failover functionality. The servers have dedicated backup supports to protect the services from any data loss and delivery interruption. The edge layer switches allow connection between the servers and client systems while supporting VLANs to provide logical segregation of traffic. Such a multilayered mechanism offers several benefits such as effective traffic management, fault tolerance, and security, which the e-commerce site will definitely require during peak hour traffic.
+The network diagram shows that the design has been meticulously structured and well-reasoned. The collapsed core layer reduces complexity while incorporating dual multilayer 
+switches for traffic routing and seamless failover functionality. The servers have dedicated backup supports to protect the services from any data loss and delivery interruption. 
+The edge layer switches allow connection between the servers and client systems while supporting VLANs to provide logical segregation of traffic. Such a multilayered mechanism offers 
+several benefits such as effective traffic management, fault tolerance, and security, which the e-commerce site will definitely require during peak hour traffic.
 
 Evaluation and Justification
 
-This design ensures reliability, scalability, and security while addressing expected traffic spikes. Redundant core switches and backup servers minimize downtime and enhance fault tolerance. VLANs logically segment traffic and allocate bandwidth efficiently, maintaining quality even during high loads. Firewalls and DDoS protection enhance security, safeguarding data integrity and availability. Although the initial investment is significant, the benefits—reliability, scalability, and capacity to support business growth—outweigh the costs. The complexity added by VLANs and multilayer switches is justified by the resulting improvements in performance and scalability, ensuring the system meets both current and future needs.
+This design ensures reliability, scalability, and security while addressing expected traffic spikes. Redundant core switches and backup servers minimize downtime and enhance fault tolerance. 
+VLANs logically segment traffic and allocate bandwidth efficiently, maintaining quality even during high loads. Firewalls and DDoS protection enhance security, safeguarding data 
+integrity and availability. Although the initial investment is significant, the benefits—reliability, scalability, and capacity to support business growth—outweigh the costs. 
+The complexity added by VLANs and multilayer switches is justified by the resulting improvements in performance and scalability, ensuring the system meets both current and future needs.
