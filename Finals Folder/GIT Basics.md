@@ -1,5 +1,4 @@
-![image](https://github.com/user-attachments/assets/70982c16-5a61-416c-84be-2b8a809bf504)
-
+![Screenshot 2024-12-05 223958](https://github.com/user-attachments/assets/6cd5fc2d-26d4-4f37-9acf-6208c65040b8)
 
 # SYSADM1 -- Git Basics
 
