@@ -1,17 +1,4 @@
-+----------------------------------+------------------------+----------+
-| ![](vertopal_                    |                        |          |
-| 4cf10180e78e457385f96b84523955a3 |                        |          |
-| /media/image1.png){width="2.4in" |                        |          |
-| height="0.5881944444444445in"}   |                        |          |
-|                                  |                        |          |
-| SCHOOL OF INFORMATION AND        |                        |          |
-| TECHNOLOGY                       |                        |          |
-+----------------------------------+------------------------+----------+
-| NAME: Zschairail Balanza         | DATE PERFORMED:        | /50      |
-|                                  | 14/11/24               |          |
-+----------------------------------+------------------------+----------+
-| Section: IDC2                    | DATE SUBMITTED:14/11/2 |          |
-+----------------------------------+------------------------+----------+
+![image](https://github.com/user-attachments/assets/0e35f0fa-3389-47eb-973b-5d326d43a25e)
 
 # SYSADM1 -- Kerberos Lab Activity: A step-by-step Guide
 
@@ -41,19 +28,13 @@ manages secure logins through ticket-based access.
 
 Server:
 
-![](vertopal_4cf10180e78e457385f96b84523955a3/media/image2.png){width="7.027083333333334in"
-height="0.7305555555555555in"}
+![image](https://github.com/user-attachments/assets/1b3a7052-7ead-457d-9a29-2fdbf7c11ec6)
 
-![](vertopal_4cf10180e78e457385f96b84523955a3/media/image3.png){width="7.027083333333334in"
-height="1.51875in"}
 
 Client:
 
-![](vertopal_4cf10180e78e457385f96b84523955a3/media/image4.png){width="7.027083333333334in"
-height="0.8201388888888889in"}
+![image](https://github.com/user-attachments/assets/dc9e337b-c179-4e93-9324-884da21c33a6)
 
-![](vertopal_4cf10180e78e457385f96b84523955a3/media/image5.png){width="7.027083333333334in"
-height="1.3041666666666667in"}
 
 2.  **Install Kerberos Server Packages on VM1 (Kerberos Server):**
 
@@ -64,11 +45,8 @@ height="1.3041666666666667in"}
 
 *sudo apt install krb5-kdc krb5-admin-server --y*
 
-![](vertopal_4cf10180e78e457385f96b84523955a3/media/image6.png){width="7.027083333333334in"
-height="0.6722222222222223in"}
+![image](https://github.com/user-attachments/assets/6f2c5ab5-4d1a-4088-aa9d-41e9e0a51998)
 
-![](vertopal_4cf10180e78e457385f96b84523955a3/media/image7.png){width="7.027083333333334in"
-height="1.0951388888888889in"}
 
 3.  **Install Kerberos Client Package on VM2 (Kerberos Client):**
 
@@ -81,11 +59,8 @@ height="1.0951388888888889in"}
 -   During installation, when prompted, enter the Kerberos realm you
     plan to set up, e.g., MYLAB.LOCAL.
 
-![](vertopal_4cf10180e78e457385f96b84523955a3/media/image8.png){width="7.027083333333334in"
-height="1.1784722222222221in"}
+![image](https://github.com/user-attachments/assets/5a07c2f8-5579-425a-8d21-741201314271)
 
-![](vertopal_4cf10180e78e457385f96b84523955a3/media/image9.png){width="7.027083333333334in"
-height="0.8208333333333333in"}
 
 **Step 2: Configure the Kerberos Server (VM1)**
 
@@ -118,8 +93,8 @@ admin_server = \<VM1_IP_or_hostname\>
 
 -   Save and close the file (Ctrl+X, then Y, and Enter to confirm).
 
-![](vertopal_4cf10180e78e457385f96b84523955a3/media/image10.png){width="5.592981189851269in"
-height="1.6332895888013998in"}
+![image](https://github.com/user-attachments/assets/b2ce848f-23fc-4b7b-a6f5-d8e2b026a5fb)
+
 
 2.  **Initialize the Kerberos Database:**
 
@@ -131,8 +106,8 @@ height="1.6332895888013998in"}
 
 -   You will be prompted to set a password for the Kerberos database.
 
-![](vertopal_4cf10180e78e457385f96b84523955a3/media/image11.png){width="4.573555336832896in"
-height="0.9688856080489939in"}
+![image](https://github.com/user-attachments/assets/e8980266-c658-4c09-ad4f-af71ec78e59c)
+
 
 3.  **Start and Enable the Kerberos Services:**
 
@@ -149,8 +124,8 @@ height="0.9688856080489939in"}
 
 *sudo systemctl enable krb5-admin-server*
 
-![](vertopal_4cf10180e78e457385f96b84523955a3/media/image12.png){width="7.027083333333334in"
-height="3.623611111111111in"}
+![image](https://github.com/user-attachments/assets/0b173791-feed-44b4-b622-a336ffd7ea7f)
+
 
 **Step 3: Set Up a Kerberos User Principal**
 
@@ -165,8 +140,8 @@ height="3.623611111111111in"}
 
 -   Set a password for testuser.
 
-![](vertopal_4cf10180e78e457385f96b84523955a3/media/image13.png){width="7.027083333333334in"
-height="0.46319444444444446in"}
+![image](https://github.com/user-attachments/assets/5c18ae98-f5b1-4d22-840f-7f9bf1c0aeed)
+
 
 2.  **Verify the User Principal:**
 
@@ -176,8 +151,8 @@ height="0.46319444444444446in"}
 
 *sudo kadmin.local -q \"listprincs\"*
 
-![](vertopal_4cf10180e78e457385f96b84523955a3/media/image14.png){width="5.407004593175853in"
-height="0.39588910761154855in"}
+![image](https://github.com/user-attachments/assets/4dc30ac4-1f72-4cca-89b2-9fee4d360d2c)
+
 
 **Step 4: Configure the Kerberos Client (VM2)**
 
@@ -192,8 +167,8 @@ height="0.39588910761154855in"}
 -   Set the default realm to MYLAB.LOCAL and point to the KDC and admin
     server on VM1. The configuration should match what you set on VM1.
 
-![](vertopal_4cf10180e78e457385f96b84523955a3/media/image15.png){width="5.802892607174103in"
-height="2.864983595800525in"}
+![image](https://github.com/user-attachments/assets/19c45d4f-13df-41d4-a345-185e03e8a68f)
+
 
 **Step 5: Test Kerberos Authentication**
 
@@ -207,8 +182,8 @@ height="2.864983595800525in"}
 
 -   Enter the password you set for testuser.
 
-![](vertopal_4cf10180e78e457385f96b84523955a3/media/image16.png){width="7.027083333333334in"
-height="1.0083333333333333in"}
+![image](https://github.com/user-attachments/assets/e8ac9ccb-4e23-42a4-ad3c-ee545f958a5f)
+
 
 2.  **Verify the Ticket:**
 
@@ -222,5 +197,5 @@ height="1.0083333333333333in"}
 -   You should see details about the ticket, such as the principal and
     expiration time, confirming successful Kerberos authentication.
 
-![](vertopal_4cf10180e78e457385f96b84523955a3/media/image17.png){width="7.027083333333334in"
-height="1.0986111111111112in"}
+![image](https://github.com/user-attachments/assets/ff6fd9ed-fcd4-49fa-8a13-5ee04e6dc41e)
+
