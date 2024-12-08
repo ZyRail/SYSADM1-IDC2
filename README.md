@@ -8,14 +8,19 @@ in managing and maintaining IT systems.
 Each activity is placed into its directory. Below is the summary of the activities included:
 
 **Prelims Folder**
+
   1. Evolution of Systems Administration: From Manual to Automated
   2. Creating File Systems
   3. Managing Services in Windows
+     
 **Midterms Forlder**
+
   1. Linux CLI Basics
   2. End User License Agreement (Assignment)
   3. Web Server Monitoring
+     
 **Finals Folder**
+
   1. Kerberos Laboratory Activity
   2. Cybersecurity Resilience: TechGuard Solutions' Recovery Disk Strategy in Action
   3. GIT Basics
